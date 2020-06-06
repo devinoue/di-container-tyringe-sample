@@ -20,6 +20,16 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    'prettier/prettier': [
+      2,
+      {
+        singleQuote: true,
+        semi: false,
+        arrowParens: 'always',
+        parser: 'typescript',
+      },
+    ],
+
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
   },

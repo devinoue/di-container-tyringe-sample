@@ -1,3 +1,3 @@
 export interface IRepository {
-    fetch(): string
+  fetch(): string
 }

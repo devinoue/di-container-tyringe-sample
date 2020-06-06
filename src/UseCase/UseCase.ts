@@ -1,5 +1,5 @@
 import { injectable, inject } from 'tsyringe'
-import { IRepository } from '../types'
+import { IRepository } from '~/types'
 
 @injectable()
 export class UseCase {
@@ -8,4 +8,8 @@ export class UseCase {
   execute() {
     return this.repo.fetch()
   }
+}
+
+;(a: string) => {
+  return a
 }
